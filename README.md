@@ -19,17 +19,17 @@ This website is the **guest-facing companion app** to [The Wild Oasis management
 
 ## Tech Stack
 
-| Category            | Technology                                                                 |
-| -------------------- | --------------------------------------------------------------------------- |
-| Framework            | [Next.js 14](https://nextjs.org/) (App Router, Server Components, Server Actions) |
-| UI Library           | [React 18](https://react.dev/)                                             |
-| Styling              | [Tailwind CSS](https://tailwindcss.com/)                                   |
+| Category             | Technology                                                                                |
+| -------------------- | ----------------------------------------------------------------------------------------- |
+| Framework            | [Next.js 14](https://nextjs.org/) (App Router, Server Components, Server Actions)         |
+| UI Library           | [React 18](https://react.dev/)                                                            |
+| Styling              | [Tailwind CSS](https://tailwindcss.com/)                                                  |
 | Database / Backend   | [Supabase](https://supabase.com/) (PostgreSQL) — **shared with the hotel management app** |
-| Authentication       | [NextAuth.js (Auth.js v5)](https://authjs.dev/) with Google OAuth provider  |
-| Date utilities       | [date-fns](https://date-fns.org/)                                          |
-| Date picker          | [react-day-picker](https://daypicker.dev/)                                 |
-| Icons                | [Heroicons](https://heroicons.com/)                                        |
-| Linting / Formatting | ESLint (`eslint-config-next`), Prettier + `prettier-plugin-tailwindcss`     |
+| Authentication       | [NextAuth.js (Auth.js v5)](https://authjs.dev/) with Google OAuth provider                |
+| Date utilities       | [date-fns](https://date-fns.org/)                                                         |
+| Date picker          | [react-day-picker](https://daypicker.dev/)                                                |
+| Icons                | [Heroicons](https://heroicons.com/)                                                       |
+| Linting / Formatting | ESLint (`eslint-config-next`), Prettier + `prettier-plugin-tailwindcss`                   |
 
 ## Architecture notes
 
@@ -100,7 +100,3 @@ app/
   login/         # Sign-in page
 middleware.js    # Protects /account routes via NextAuth
 ```
-
-## License
-
-No license has been specified for this project yet. Consider adding a `LICENSE` file (e.g. MIT) before accepting external contributions.
